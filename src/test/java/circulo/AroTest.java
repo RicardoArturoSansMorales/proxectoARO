@@ -16,7 +16,9 @@ import static org.junit.jupiter.api.Assertions.*;
  * @author Ricardo Sans
  */
 public class AroTest {
-    
+    /**
+     * Test para constructor vacio
+     */
     public AroTest() {
     }
     
