@@ -35,7 +35,7 @@ public class AroTest {
      * Test of getCoordenadaX method, of class Aro.
      */
     @Test
-    public void testObterX() {
+    public void testgetCoordenadaX() {
         System.out.println("getCoordenadaXX");
         Aro instance = new Aro(0,0,0.1);
         int expResult = 0;
@@ -119,7 +119,7 @@ public class AroTest {
         double result = instance.obterCircunferencia();
         assertEquals(expResult, result,1e-6);
     }
-
+    
     /**
      * Test of obterSuperficie method, of class Aro.
      */
